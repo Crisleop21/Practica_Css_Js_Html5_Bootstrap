@@ -34,6 +34,28 @@ body{
     display: block;
 }
 
+.login-box .toggle{
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center;
+    border-top: 2px solid #24303c;
+    border-bottom: 2px solid #1f53c5;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+.login-box .toggle{
+    letter-spacing: 1px;
+}
+.login-box .toggle:hover {
+    border-top: 2px solid #24303c;
+    border-bottom: 2px solid #1f53c5;
+}
+
 .login-box input{
     width: 100%;
     margin-bottom: 20px;
@@ -138,9 +160,9 @@ body{
 /* Para oculta el formulario registro */
 .login-box{
     opacity: 1;
-    display: none;
+    display: block;
 }
 
-.form-register{
-    display: block;
+.form-register {
+    display: none;
 }
