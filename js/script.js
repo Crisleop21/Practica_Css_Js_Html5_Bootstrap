@@ -8,8 +8,8 @@ $( '.toggle').click(function(){
     })
 });
 
-const usuario = document.getElementById("Ingrese Usuario");
-const password = document.getElementById("Ingrese Contraseña");
+const usuario = document.getElementById("nombres");
+const password = document.getElementById("password");
 
 function iniciarSesion(){
     console.log("Usuario: " + usuario.value);
